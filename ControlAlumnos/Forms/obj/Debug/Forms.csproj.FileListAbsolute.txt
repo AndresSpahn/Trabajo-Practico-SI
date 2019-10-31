@@ -1,0 +1,13 @@
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\bin\Debug\Forms.exe.config
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\bin\Debug\Forms.exe
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\bin\Debug\Forms.pdb
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.Principal.resources
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.exe
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.pdb
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.AltaUniversidades.resources
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.CantidadAlumnos.resources
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\Forms\obj\Debug\Forms.ListaUniversidades.resources

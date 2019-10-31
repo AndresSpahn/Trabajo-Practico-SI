@@ -1,0 +1,7 @@
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\bin\Debug\ControlAlumnos.exe.config
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\bin\Debug\ControlAlumnos.exe
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\bin\Debug\ControlAlumnos.pdb
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\obj\Debug\ControlAlumnos.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\obj\Debug\ControlAlumnos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\obj\Debug\ControlAlumnos.exe
+C:\Users\Usuario\Desktop\TP - Sistemas de Información\Proyecto\ControlAlumnos\ControlAlumnos\obj\Debug\ControlAlumnos.pdb
