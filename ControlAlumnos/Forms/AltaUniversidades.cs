@@ -16,5 +16,17 @@ namespace Forms
         {
             InitializeComponent();
         }
+
+        private void button_Confirmar_Click(object sender, EventArgs e)
+        {
+            if (this.textBox_CodigoUniversidad.Text != "" && this.textBox_Año.Text != "" && this.textBox_Nombre.Text != "" && this.textBox_Siglo.Text != "" && this.textBox_TipoUniversidad.Text != "")
+            {
+                
+            }
+            else
+            {
+                MessageBox.Show("Complete todos los campos");
+            }
+        }
     }
 }

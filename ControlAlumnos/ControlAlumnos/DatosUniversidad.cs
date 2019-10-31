@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ControlAlumnos
 {
-    class Program
+    public class DatosUniversidad
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }

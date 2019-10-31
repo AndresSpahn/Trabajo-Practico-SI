@@ -32,8 +32,6 @@
             this.altaUniversidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaUniversidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultaDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.públicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.privadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,12 +49,9 @@
             // 
             // altaUniversidadesToolStripMenuItem
             // 
-            this.altaUniversidadesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.públicaToolStripMenuItem,
-            this.privadaToolStripMenuItem});
             this.altaUniversidadesToolStripMenuItem.Name = "altaUniversidadesToolStripMenuItem";
-            this.altaUniversidadesToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
-            this.altaUniversidadesToolStripMenuItem.Text = "Alta Universidades";
+            this.altaUniversidadesToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
+            this.altaUniversidadesToolStripMenuItem.Text = "Altas Universidades";
             // 
             // listaUniversidadesToolStripMenuItem
             // 
@@ -71,20 +66,6 @@
             this.consultaDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(134, 20);
             this.consultaDeAlumnosToolStripMenuItem.Text = "Cantidad de Alumnos";
             this.consultaDeAlumnosToolStripMenuItem.Click += new System.EventHandler(this.consultaDeAlumnosToolStripMenuItem_Click);
-            // 
-            // públicaToolStripMenuItem
-            // 
-            this.públicaToolStripMenuItem.Name = "públicaToolStripMenuItem";
-            this.públicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.públicaToolStripMenuItem.Text = "Pública";
-            this.públicaToolStripMenuItem.Click += new System.EventHandler(this.públicaToolStripMenuItem_Click);
-            // 
-            // privadaToolStripMenuItem
-            // 
-            this.privadaToolStripMenuItem.Name = "privadaToolStripMenuItem";
-            this.privadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.privadaToolStripMenuItem.Text = "Privada";
-            this.privadaToolStripMenuItem.Click += new System.EventHandler(this.privadaToolStripMenuItem_Click);
             // 
             // Principal
             // 
@@ -108,7 +89,5 @@
         private System.Windows.Forms.ToolStripMenuItem altaUniversidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listaUniversidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaDeAlumnosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem públicaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem privadaToolStripMenuItem;
     }
 }

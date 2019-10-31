@@ -17,24 +17,6 @@ namespace Forms
             InitializeComponent();
         }
 
-        private void públicaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AltaUniversidades altaUniversidades = new AltaUniversidades()
-            {
-                Owner = this
-            };
-            altaUniversidades.Show();
-        }
-
-        private void privadaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AltaUniversidades altaUniversidades = new AltaUniversidades()
-            {
-                Owner = this
-            };
-            altaUniversidades.Show();
-        }
-
         private void listaUniversidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ListaUniversidades listaUniversidades = new ListaUniversidades()

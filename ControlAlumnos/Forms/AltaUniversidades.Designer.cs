@@ -129,6 +129,7 @@
             this.button_Confirmar.TabIndex = 10;
             this.button_Confirmar.Text = "Confirmar";
             this.button_Confirmar.UseVisualStyleBackColor = true;
+            this.button_Confirmar.Click += new System.EventHandler(this.button_Confirmar_Click);
             // 
             // AltaUniversidades
             // 
