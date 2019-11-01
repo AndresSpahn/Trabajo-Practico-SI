@@ -44,12 +44,17 @@
     <Compile Include="Alumnos.cs" />
     <Compile Include="AlumnoUniversidadSede.cs" />
     <Compile Include="Antecedentes.cs" />
+    <Compile Include="Becados.cs" />
     <Compile Include="Becas.cs" />
+    <Compile Include="EstudiantesxSedes.cs" />
+    <Compile Include="EstudiantesxUniversidad.cs" />
     <Compile Include="Localidades.cs" />
     <Compile Include="Nacionalidades.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provincias.cs" />
+    <Compile Include="ResultadoPrivadas.cs" />
+    <Compile Include="ResultadoEstatal.cs" />
     <Compile Include="Sedes.cs" />
     <Compile Include="Universidades.cs" />
     <Compile Include="VariacionMatricula.cs" />

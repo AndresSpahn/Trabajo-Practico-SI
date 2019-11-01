@@ -11,7 +11,7 @@ namespace Logica
         public TiposDNI TipoDNI { get; set; }
         public int NumeroDNI { get; set; }
         public int CodigoUniversidad { get; set; }
-        public PrivadaEstatal TipoUniversidad { get; set; }
+        public string TipoUniversidad { get; set; }
         public int CodigoProvincia { get; set; }
     }
 }
