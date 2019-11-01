@@ -19,6 +19,7 @@ namespace Logica
         List<Nacionalidades> ListaNacionaliades = new List<Nacionalidades>();
         List<AlumnoUniversidadSede> ListaAlumnoUniversidad = new List<AlumnoUniversidadSede>();
 
+        //Metodo Universidades Estatales
         public ResultadoEstatal CantidadEsudiantesUniversidadProvincia()
         {
             ResultadoEstatal Resultado = new ResultadoEstatal();
@@ -26,36 +27,33 @@ namespace Logica
             foreach (var Provincia in ListaProvincias)
             {
                 Resultado.ListaProvincias.Add(Provincia.Nombre);
-                EstudiantesxUniversidad Cantidad = new EstudiantesxUniversidad();
 
-                bool ban = false;
                 foreach (var sede in ListaSedes)
                 {
                     if (sede.CodigoProvincia == Provincia.CodigoProvincia && sede.TipoUniversidad == "Estatal")
                     {
-                        if (ban == false)
-                        {
-                            ban = true;
-                            Cantidad.NombreProvincia = Provincia.Nombre;
-                            foreach (var Universidad in ListaUniversidades)
-                            {
-                                if (Universidad.CodigoUniversidad == Universidad.CodigoUniversidad && Universidad.TipoUniversidad == Universidad.TipoUniversidad)
-                                {
-                                    Cantidad.NombreUniversidad = Universidad.Nombre;
+                        EstudiantesxUniversidad Cantidad = new EstudiantesxUniversidad();
+                        Cantidad.NombreProvincia = Provincia.Nombre;
 
-                                    foreach (var Beca in ListaBecas)
+                        foreach (var Universidad in ListaUniversidades)
+                        {
+                            if (Universidad.CodigoUniversidad == Universidad.CodigoUniversidad && Universidad.TipoUniversidad == Universidad.TipoUniversidad)
+                            {
+                                Cantidad.NombreUniversidad = Universidad.Nombre;
+
+                                foreach (var Beca in ListaBecas)
+                                {
+                                    if (Beca.CodigoUniversidad == Universidad.CodigoUniversidad && Universidad.TipoUniversidad == Beca.TipoUniversidad && Beca.CodigoProvincia == Provincia.CodigoProvincia)
                                     {
-                                        if (Beca.CodigoUniversidad == Universidad.CodigoUniversidad && Universidad.TipoUniversidad == Beca.TipoUniversidad && Beca.CodigoProvincia == Provincia.CodigoProvincia)
+                                        Becados aux = new Becados();
+
+                                        foreach (var Alumno in ListaAlumnos)
                                         {
-                                            foreach (var Alumno in ListaAlumnos)
+                                            if (Beca.NumeroDNI == Alumno.NumeroDNI && Beca.TipoDNI == Alumno.TipoDNI)
                                             {
-                                                if (Beca.NumeroDNI == Alumno.NumeroDNI && Beca.TipoDNI == Alumno.TipoDNI)
-                                                {
-                                                    Becados aux = new Becados();
-                                                    aux.NombreEstudiante = Alumno.NombreCompleto;
-                                                    aux.SedeUniversidad = Universidad.Nombre;
-                                                    Resultado.ListaBecados.Add(aux);
-                                                }
+                                                 aux.NombreEstudiante = Alumno.NombreCompleto;
+                                                 aux.SedeUniversidad = Universidad.Nombre;
+                                                 Resultado.ListaBecados.Add(aux);
                                             }
                                         }
                                     }
@@ -70,19 +68,62 @@ namespace Logica
                                 Cantidad.CantidadEstudiantes += 1;
                             }
                         }
+                        Resultado.ListaEstudiantesUniversidad.Add(Cantidad);
                     }
                 }
-                Resultado.ListaEstudiantesUniversidad.Add(Cantidad);
             }
-
             return Resultado;
         }
 
+        //Metodo Universidades Privadas
         public ResultadoPrivadas CantidadEsudiantesUniversidadSede()
         {
             ResultadoPrivadas Resultado = new ResultadoPrivadas();
 
+            foreach (var Universidad in ListaUniversidades)
+            {
+                if (Universidad.TipoUniversidad == "Privada")
+                {
+                    Resultado.ListaUniversidades.Add(Universidad.Nombre);
 
+                    foreach (var Sede in ListaSedes)
+                    {
+                        if (Sede.CodigoUniversidad == Universidad.CodigoUniversidad && Sede.TipoUniversidad == Universidad.TipoUniversidad)
+                        {
+                            EstudiantesxSedes Cantidad = new EstudiantesxSedes();
+                            Cantidad.NombreSede = Sede.NombreSede;
+                            Cantidad.NombreUniversidad = Universidad.Nombre;
+
+                            foreach (var Estudiante in ListaAlumnoUniversidad)
+                            {
+                                if (Estudiante.CodigoUniversidad == Universidad.CodigoUniversidad && Estudiante.TipoUniversidad == Universidad.TipoUniversidad && Estudiante.CodigoProvincia == Sede.CodigoProvincia)
+                                {
+                                    Cantidad.CantidadEstudiantes += 1;
+
+                                    foreach (var Beca in ListaBecas)
+                                    {
+                                        if (Beca.TipoDNI == Estudiante.TipoDNI && Beca.NumeroDNI == Estudiante.NumeroDNI && Beca.CodigoProvincia == Estudiante.CodigoProvincia)
+                                        {
+                                            Becados bec = new Becados();
+                                            bec.SedeUniversidad = Sede.NombreSede;
+
+                                            foreach (var Alumno in ListaAlumnos)
+                                            {
+                                                if (Estudiante.TipoDNI == Alumno.TipoDNI && Estudiante.NumeroDNI == Alumno.NumeroDNI)
+                                                {
+                                                    bec.NombreEstudiante = Alumno.NombreCompleto;
+                                                }
+                                            }
+                                            Resultado.ListaBecados.Add(bec);
+                                        }
+                                    }
+                                }
+                            }
+                            Resultado.ListaEstudiantesSedes.Add(Cantidad);
+                        }
+                    }
+                }
+            }
             return Resultado;
         }
     }
