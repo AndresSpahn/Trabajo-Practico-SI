@@ -24,3 +24,16 @@ C:\Users\diego\Desktop\UCSE\Sistema de Informacion l\TP2\ABM\ControlAlumnos\Form
 C:\Users\diego\Desktop\UCSE\Sistema de Informacion l\TP2\ABM\ControlAlumnos\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
 C:\Users\diego\Desktop\UCSE\Sistema de Informacion l\TP2\ABM\ControlAlumnos\Forms\obj\Debug\Forms.exe
 C:\Users\diego\Desktop\UCSE\Sistema de Informacion l\TP2\ABM\ControlAlumnos\Forms\obj\Debug\Forms.pdb
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\bin\Debug\Forms.exe.config
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\bin\Debug\Forms.exe
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\bin\Debug\Forms.pdb
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.Alta_Alumno.resources
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.Principal.resources
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.exe
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.pdb
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.Modificar_Alumno.resources
+C:\Users\Usuario\Desktop\Sistemas de Informacion\APP\ControlAlumnos\Forms\obj\Debug\Forms.Vision_Usuario.resources

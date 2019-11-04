@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +10,8 @@ namespace Logica
 {
     public class Principal
     {
+        private string path = $"{Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "")}";
+
         List<Alumnos> ListaAlumnos = new List<Alumnos>();
         List<Universidades> ListaUniversidades = new List<Universidades>();
         List<Becas> ListaBecas = new List<Becas>();
@@ -18,7 +22,7 @@ namespace Logica
         List<Localidades> ListaLocalidades = new List<Localidades>();
         List<Nacionalidades> ListaNacionaliades = new List<Nacionalidades>();
         List<AlumnoUniversidadSede> ListaAlumnoUniversidad = new List<AlumnoUniversidadSede>();
-
+        
         //Metodo Universidades Estatales
         public ResultadoEstatal CantidadEsudiantesUniversidadProvincia()
         {

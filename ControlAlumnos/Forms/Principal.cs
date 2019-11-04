@@ -16,32 +16,26 @@ namespace Forms
         {
             InitializeComponent();
         }
+        
+        private void AltaUniversidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Alta_Alumno alta_Alumno = new Alta_Alumno()
+            { Owner = this };
+            alta_Alumno.Show();
+        }
 
         private void listaUniversidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ListaUniversidades listaUniversidades = new ListaUniversidades()
-            {
-                Owner = this
-            };
-            listaUniversidades.Show();
+            Modificar_Alumno modificar_Alumno = new Modificar_Alumno()
+            { Owner = this };
+            modificar_Alumno.Show();
         }
 
         private void consultaDeAlumnosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CantidadAlumnos cantidadAlumnos = new CantidadAlumnos()
-            {
-                Owner = this
-            };
-            cantidadAlumnos.Show();
-        }
-
-        private void altaUniversidadesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AltaUniversidades altaUniversidades = new AltaUniversidades()
-            {
-                Owner = this
-            };
-            altaUniversidades.Show();
+            Vision_Usuario vision_Usuario = new Vision_Usuario()
+            { Owner = this };
+            vision_Usuario.Show();
         }
     }
 }

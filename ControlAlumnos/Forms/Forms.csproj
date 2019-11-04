@@ -46,23 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AltaUniversidades.cs">
+    <Compile Include="Alta Alumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AltaUniversidades.Designer.cs">
-      <DependentUpon>AltaUniversidades.cs</DependentUpon>
+    <Compile Include="Alta Alumno.Designer.cs">
+      <DependentUpon>Alta Alumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="CantidadAlumnos.cs">
+    <Compile Include="Alumno.cs" />
+    <Compile Include="Cant.cs" />
+    <Compile Include="Modificar Alumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CantidadAlumnos.Designer.cs">
-      <DependentUpon>CantidadAlumnos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ListaUniversidades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListaUniversidades.Designer.cs">
-      <DependentUpon>ListaUniversidades.cs</DependentUpon>
+    <Compile Include="Modificar Alumno.Designer.cs">
+      <DependentUpon>Modificar Alumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -72,14 +68,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AltaUniversidades.resx">
-      <DependentUpon>AltaUniversidades.cs</DependentUpon>
+    <Compile Include="Vision Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vision Usuario.Designer.cs">
+      <DependentUpon>Vision Usuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Alta Alumno.resx">
+      <DependentUpon>Alta Alumno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CantidadAlumnos.resx">
-      <DependentUpon>CantidadAlumnos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ListaUniversidades.resx">
-      <DependentUpon>ListaUniversidades.cs</DependentUpon>
+    <EmbeddedResource Include="Modificar Alumno.resx">
+      <DependentUpon>Modificar Alumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -93,6 +92,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vision Usuario.resx">
+      <DependentUpon>Vision Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Alumno.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
