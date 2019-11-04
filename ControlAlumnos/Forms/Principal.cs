@@ -34,5 +34,14 @@ namespace Forms
             };
             cantidadAlumnos.Show();
         }
+
+        private void altaUniversidadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AltaUniversidades altaUniversidades = new AltaUniversidades()
+            {
+                Owner = this
+            };
+            altaUniversidades.Show();
+        }
     }
 }

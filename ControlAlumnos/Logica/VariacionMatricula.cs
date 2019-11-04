@@ -9,9 +9,7 @@ namespace Logica
     public class VariacionMatricula
     {
         public int CodigoUniversidad { get; set; }
-        public PrivadaEstatal TipoUniversidad { get; set; }
-        public double ValorActual { get; set; }
-        public double ValorAnterior { get; set; }
-        public DateTime FechaVariacion { get; set; }
+        public double Valor { get; set; }
+        public DateTime Fecha { get; set; }
     }
 }

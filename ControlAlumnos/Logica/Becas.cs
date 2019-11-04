@@ -10,7 +10,6 @@ namespace Logica
     {
         public int CodigoBeca { get; set; }
         public int CodigoUniversidad { get; set; }
-        public string TipoUniversidad { get; set; }
         public string Nombre { get; set; }
         public TiposDNI TipoDNI { get; set; }
         public int NumeroDNI { get; set; }

@@ -9,7 +9,6 @@ namespace Logica
     public class Sedes
     {
         public int CodigoUniversidad { get; set; }
-        public string TipoUniversidad { get; set; }
         public int CodigoProvincia { get; set; }
         public string NombreSede { get; set; }
     }

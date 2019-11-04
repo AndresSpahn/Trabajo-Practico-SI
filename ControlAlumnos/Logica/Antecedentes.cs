@@ -9,7 +9,6 @@ namespace Logica
     public class Antecedentes
     {
         public int CodigoUniversidad { get; set; }
-        public string TipoUniversidad { get; set; }
         public TiposDNI TipoDNI { get; set; }
         public int NumeroDNI { get; set; }
         public DateTime FechaDesde { get; set; }

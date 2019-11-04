@@ -52,6 +52,7 @@
             this.altaUniversidadesToolStripMenuItem.Name = "altaUniversidadesToolStripMenuItem";
             this.altaUniversidadesToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
             this.altaUniversidadesToolStripMenuItem.Text = "Altas Universidades";
+            this.altaUniversidadesToolStripMenuItem.Click += new System.EventHandler(this.altaUniversidadesToolStripMenuItem_Click);
             // 
             // listaUniversidadesToolStripMenuItem
             // 
